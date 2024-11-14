@@ -1,0 +1,74 @@
+/* Basic styling for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Background color of the page */
+}
+
+/* Container for the form with rounded corners */
+.form-container {
+    max-width: 500px; 
+    margin: 0 auto; 
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    padding: 20px; 
+}
+
+/* Center the heading text */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the form */
+form {
+    margin-top: 10px;
+}
+
+/* General styling for labels and input fields */
+label, input {
+    display: block;
+    width: 100%; 
+    margin-bottom: 10px;
+    box-sizing: border-box; 
+}
+
+/* Styling for text, email, and password input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+/* Styling for the submit button */
+input[type="submit"] {
+    width: auto; /* Width adjusts to the length of the button text */
+    background-color: #007bff; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 20px; 
+    display: block;
+    margin-left: auto; 
+}
+
+/* Styling for the submit button on hover */
+input[type="submit"]:hover {
+    background-color: #0069d9; 
+}
+
+/* Styling for error messages */
+.error {
+    color: red; 
+    margin-bottom: 10px; 
+    font-size: 14px; 
+}
